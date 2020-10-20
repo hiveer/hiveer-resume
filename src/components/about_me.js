@@ -21,6 +21,21 @@ export const AboutMe = () => {
           大学毕业后，有幸与中国海洋石油集团有限公司以及中国石油云南大理销售分公司相继签约。
           于2012年初返回成都，初步踏入web开发领域。
         </p>
+        <h2> 我的主页：</h2>
+        <p>
+          <li>
+            <label className="name-label"> RubyChina：</label>
+            <a href='https://ruby-china.org/hiveer'> https://ruby-china.org/hiveer </a>
+          </li>
+          <li>
+            <label className="name-label"> Github：</label>
+            <a href='https://github.com/hiveer'> https://github.com/hiveer </a>
+          </li>
+          <li>
+            <label className="name-label"> StackOverflow：</label>
+            <a href='https://stackoverflow.com/users/3057462/hiveer'> https://stackoverflow.com/users/3057462/hiveer </a>
+          </li>
+        </p>
       </section>
     </PageTemplate>
   )
