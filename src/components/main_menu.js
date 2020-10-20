@@ -22,26 +22,26 @@ export const MainMenu = () => {
       </p>
 
       <p className="main-menu-nav">
-        <NavLink to="/about" activeStyle={selectedStyle}>
-          [About]
+        <NavLink to="/about-me" activeStyle={selectedStyle}>
+          关于我
         </NavLink>
       </p>
 
       <p className="main-menu-nav">
-        <NavLink to="/events" activeStyle={selectedStyle}>
-          [Events]
+        <NavLink to="/work-experences" activeStyle={selectedStyle}>
+          工作经验
         </NavLink>
       </p>
 
       <p className="main-menu-nav">
-        <NavLink to="/products" activeStyle={selectedStyle}>
-          [Products]
+        <NavLink to="/project-experences" activeStyle={selectedStyle}>
+          项目经验
         </NavLink>
       </p>
 
       <p className="main-menu-nav">
-        <NavLink to="/contact" activeStyle={selectedStyle}>
-          [Contact Us]
+        <NavLink to="/download-resume" activeStyle={selectedStyle}>
+          简历下载
         </NavLink>
       </p>
     </nav>
