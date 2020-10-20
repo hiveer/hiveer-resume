@@ -1,3 +1,14 @@
 .page {
   height: 100%;
 }
+
+.right-page-content, .left-sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-sidebar {
+  background-color: #f6f9f9;
+}
+

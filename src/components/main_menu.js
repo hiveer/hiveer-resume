@@ -1,6 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
+import './main_menu.css'
+
 const selectedStyle = {
   backgroundColor: "white",
   color: "slategray"
@@ -9,24 +11,34 @@ const selectedStyle = {
 export const MainMenu = () => {
   return(
     <nav className="main-menu">
-      <NavLink to="/">
-      </NavLink>
+      <p>
+        <NavLink to="/">
+        </NavLink>
+      </p>
 
-      <NavLink to="/about" activeStyle={selectedStyle}>
-        [About]
-      </NavLink>
+      <p>
+        <NavLink to="/about" activeStyle={selectedStyle}>
+          [About]
+        </NavLink>
+      </p>
 
-      <NavLink to="/events" activeStyle={selectedStyle}>
-        [Events]
-      </NavLink>
+      <p>
+        <NavLink to="/events" activeStyle={selectedStyle}>
+          [Events]
+        </NavLink>
+      </p>
 
-      <NavLink to="/products" activeStyle={selectedStyle}>
-        [Products]
-      </NavLink>
+      <p>
+        <NavLink to="/products" activeStyle={selectedStyle}>
+          [Products]
+        </NavLink>
+      </p>
 
-      <NavLink to="/contact" activeStyle={selectedStyle}>
-        [Contact Us]
-      </NavLink>
+      <p>
+        <NavLink to="/contact" activeStyle={selectedStyle}>
+          [Contact Us]
+        </NavLink>
+      </p>
     </nav>
   )
 }
