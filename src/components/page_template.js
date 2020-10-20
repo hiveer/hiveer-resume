@@ -11,6 +11,7 @@ export const PageTemplate = ({children}) => {
       <div className="row row-no-gutters height100">
         <div className="col-xs-3 col-md-3 height100 left-sidebar">
           <MainMenu />
+          <p className="disclaimer"> Powered by React Router </p>
         </div>
         <div className="col-xs-9 col-md-9 height100 right-page-content">
           {children}

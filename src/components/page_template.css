@@ -12,3 +12,8 @@
   background-color: #f6f9f9;
 }
 
+.disclaimer {
+  position: absolute;
+  bottom: 30px;
+  font-size: 15px;
+}
