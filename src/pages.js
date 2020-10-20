@@ -1,19 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import { PageTemplate } from './page_template.js'
+import { PageTemplate } from './components/page_template.js'
 
 export const Home = () => {
   return (
     <PageTemplate>
       <div className="home">
         <h1>[Company Website]</h1>
-        <nav>
-          <Link to="about">[About]</Link>
-          <Link to="events">[Events]</Link>
-          <Link to="products">[Products]</Link>
-          <Link to="contact">[Contact]</Link>
-        </nav>
       </div>
     </PageTemplate>
   )
