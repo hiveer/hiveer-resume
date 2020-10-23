@@ -1,3 +1,11 @@
 .about-me {
   width: 80%;
 }
+
+.about-me__section--education {
+  margin: 40px 0;
+}
+
+.about-me__section--persion-pages {
+  margin: 40px 0;
+}
