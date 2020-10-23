@@ -28,13 +28,13 @@ export const MainMenu = () => {
       </p>
 
       <p className="main-menu-nav">
-        <NavLink to="/work-experences" activeStyle={selectedStyle}>
+        <NavLink to="/work-experiences" activeStyle={selectedStyle}>
           工作经验
         </NavLink>
       </p>
 
       <p className="main-menu-nav">
-        <NavLink to="/project-experences" activeStyle={selectedStyle}>
+        <NavLink to="/project-experiences" activeStyle={selectedStyle}>
           项目经验
         </NavLink>
       </p>

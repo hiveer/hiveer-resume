@@ -1,13 +1,13 @@
 import React from 'react'
 import { PageTemplate } from './page_template.js'
 
-import './work_experences.css'
+import './work_experiences.css'
 
-export const WorkExperences = () => {
+export const WorkExperiences = () => {
   return (
     <PageTemplate>
-      <section className="work-experences">
-        <section className="work-experences__section">
+      <section className="work-experiences">
+        <section className="work-experiences__section">
           <h2> 爱齐科技 </h2>
           <p>Full Stack Developer 2018.07 - Now</p>
           <p>
@@ -19,7 +19,7 @@ export const WorkExperences = () => {
           </p>
         </section>
 
-        <section className="work-experences__section">
+        <section className="work-experiences__section">
           <h2> 活跃网络 </h2>
           <p>Ruby on Rails Developer 2014.11 - 2018.06</p>
           <p>
@@ -27,7 +27,7 @@ export const WorkExperences = () => {
           </p>
         </section>
 
-        <section className="work-experences__section">
+        <section className="work-experiences__section">
           <h2> 权益宝 </h2>
           <p>Ruby on Rails Developer 2013.04 - 2014.10</p>
           <p>
@@ -35,7 +35,7 @@ export const WorkExperences = () => {
           </p>
         </section>
 
-        <section className="work-experences__section">
+        <section className="work-experiences__section">
           <h2> Avvo </h2>
           <p>Ruby Newbie 2012.01 - 2013.03</p>
           <p>
