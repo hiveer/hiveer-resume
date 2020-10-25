@@ -1,0 +1,35 @@
+.project-experiences {
+  width: 80%;
+  height: 90%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.project-experiences__section {
+  margin: 40px 0;
+}
+
+.smile-sharing {
+  height: auto;
+  width: 100%;
+}
+
+.smile-sharing-admin {
+  height: auto;
+  width: 100%;
+}
+
+.smile-view-one {
+  width: 80%;
+  height: auto;
+}
+
+.smile-view-two {
+  width: 80%;
+  height: auto;
+}
+
+.smile-view-three {
+  height: auto;
+  width: 100%;
+}
