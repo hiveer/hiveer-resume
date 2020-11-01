@@ -27,6 +27,13 @@ export const AboutMe = () => {
           </p>
         </section>
 
+        <section className="about-me__section--vision">
+          <h2> 我的愿景：</h2>
+          <p>
+            希望能成为一名潜心修炼的技术人员，能够用技术解决社会问题。
+          </p>
+        </section>
+
         <section className="about-me__section--persion-pages">
           <h2> 我的主页：</h2>
           <p>
