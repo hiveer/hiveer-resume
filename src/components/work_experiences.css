@@ -1,6 +1,14 @@
 .work-experiences {
+  padding: 10px;
   width: 80%;
   height: 90%;
   overflow-y: scroll;
   overflow-x: hidden;
+}
+
+.work-experiences__section {
+  margin: 40px 0;
+  padding: 5px 10px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px #e2dddd;
 }
