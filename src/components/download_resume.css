@@ -3,6 +3,8 @@
 }
 
 .download-resume__img--resume-png {
+  box-shadow: 1px 5px 5px #e2dddd;
   height: 600px;
   width: auto;
+  margin-bottom: 30px;
 }

@@ -14,8 +14,8 @@ export const DownloadResume = () => {
           <img className="download-resume__img--resume-png" src={resume_png} />
         </div>
         <div>
-          <a href={resume}>
-            <button>
+          <a href={resume} target="_blank">
+            <button className="btn btn-info">
               Download resume
             </button>
           </a>
