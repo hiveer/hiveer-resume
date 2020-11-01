@@ -1,4 +1,5 @@
 .project-experiences {
+  padding: 10px;
   width: 80%;
   height: 90%;
   overflow-y: scroll;
@@ -6,7 +7,25 @@
 }
 
 .project-experiences__section {
+  border-radius: 10px;
+  padding: 5px 10px;
+  box-shadow: 1px 2px 2px #e2dddd;
   margin: 40px 0;
+}
+
+.project-experiences__img {
+  box-shadow: 2px 5px 5px #bbb3b3;
+  max-width: 800px;
+  max-height: 600px;
+  width: auto;
+}
+
+.project-experiences__div--img {
+  margin-bottom: 60px;
+}
+
+.project-experiences__div--basic-intro {
+  margin-bottom: 40px;
 }
 
 .smile-sharing {
@@ -20,12 +39,10 @@
 }
 
 .smile-view-one {
-  width: 80%;
   height: auto;
 }
 
 .smile-view-two {
-  width: 80%;
   height: auto;
 }
 
