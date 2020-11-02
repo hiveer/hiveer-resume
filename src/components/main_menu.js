@@ -44,6 +44,7 @@ export const MainMenu = () => {
           简历下载
         </NavLink>
       </p>
+      <p className="disclaimer"> Powered by React Router </p>
     </nav>
   )
 }

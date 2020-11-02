@@ -2,6 +2,10 @@
   height: 100%;
 }
 
+.row-no-gutters {
+  padding: 0;
+}
+
 .right-page-content, .left-sidebar {
   display: flex;
   align-items: center;
@@ -10,10 +14,4 @@
 
 .left-sidebar {
   background-color: #f6f9f9;
-}
-
-.disclaimer {
-  position: absolute;
-  bottom: 30px;
-  font-size: 15px;
 }
