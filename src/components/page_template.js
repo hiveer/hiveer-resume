@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import { MainMenu } from './main_menu.js'
 
@@ -6,6 +6,13 @@ import './page_template.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 export const PageTemplate = ({children}) => {
+  useEffect(() => {
+    window.scrollTo({
+      top: window.innerHeight,
+      behavior: "smooth"
+    })
+  }, [])
+
   return (
     <div className="page">
       <div className="row row-no-gutters height100">
