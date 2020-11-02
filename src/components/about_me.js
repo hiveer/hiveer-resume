@@ -38,16 +38,13 @@ export const AboutMe = () => {
           <h2> 我的主页：</h2>
           <p>
             <li>
-              <label className="name-label"> RubyChina：</label>
-              <a href='https://ruby-china.org/hiveer'> https://ruby-china.org/hiveer </a>
+              <a href='https://ruby-china.org/hiveer'> RubyChina </a>
             </li>
             <li>
-              <label className="name-label"> Github：</label>
-              <a href='https://github.com/hiveer'> https://github.com/hiveer </a>
+              <a href='https://github.com/hiveer'> Github </a>
             </li>
             <li>
-              <label className="name-label"> StackOverflow：</label>
-              <a href='https://stackoverflow.com/users/3057462/hiveer'> https://stackoverflow.com/users/3057462/hiveer </a>
+              <a href='https://stackoverflow.com/users/3057462/hiveer'> StackOverflow </a>
             </li>
           </p>
         </section>

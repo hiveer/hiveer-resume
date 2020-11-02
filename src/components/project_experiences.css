@@ -50,3 +50,13 @@
   height: auto;
   width: 100%;
 }
+
+@media (max-width: 700px) {
+  .smile-view-one {
+    width: 100%;
+  }
+
+  .smile-view-two {
+    width: 100%;
+  }
+}
