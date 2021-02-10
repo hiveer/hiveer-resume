@@ -1,6 +1,14 @@
 import React, { useEffect } from 'react'
 
+import {
+  BrowserView,
+  MobileView,
+  isBrowser,
+  isMobile
+} from 'react-device-detect';
+
 import { MainMenu } from './../mainMenu/mainMenu.js'
+import { FooterNav } from './../footerNav/footerNav.js'
 
 import './pageTemplate.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -23,6 +31,9 @@ export const PageTemplate = ({children}) => {
           {children}
         </div>
       </div>
+      <MobileView>
+        <FooterNav />
+      </MobileView>
     </div>
   )
 }
