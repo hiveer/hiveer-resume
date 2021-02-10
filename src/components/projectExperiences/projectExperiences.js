@@ -1,12 +1,12 @@
 import React from 'react'
-import { PageTemplate } from './page_template.js'
+import { PageTemplate } from './../pageTemplate/pageTemplate.js'
 
-import './project_experiences.css'
-import smile_sharing_landing_page_png from './smile_sharing.png'
-import smile_sharing_admin_png from './smile_sharing_admin.png'
-import smile_view_one_png from './smile_view_one.png'
-import smile_view_two_png from './smile_view_two.png'
-import smile_view_three_png from './smile_view_three.png'
+import './projectExperiences.css'
+import smile_sharing_landing_page_png from './../assets/smile_sharing.png'
+import smile_sharing_admin_png from './../assets/smile_sharing_admin.png'
+import smile_view_one_png from './../assets/smile_view_one.png'
+import smile_view_two_png from './../assets/smile_view_two.png'
+import smile_view_three_png from './../assets/smile_view_three.png'
 
 export const ProjectExperiences = () => {
   return (

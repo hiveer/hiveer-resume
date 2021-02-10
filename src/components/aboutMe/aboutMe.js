@@ -1,7 +1,7 @@
 import React from 'react'
-import { PageTemplate } from './page_template.js'
+import { PageTemplate } from './../pageTemplate/pageTemplate.js'
 
-import './about_me.css'
+import './aboutMe.css'
 
 export const AboutMe = () => {
   return (

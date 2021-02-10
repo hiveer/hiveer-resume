@@ -1,8 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-import './main_menu.css'
-import headportrait from './head_portrait.png'
+import './mainMenu.css'
+import headportrait from './../assets/head_portrait.png'
 
 const selectedStyle = {
   backgroundColor: "white",

@@ -1,7 +1,7 @@
 import React from 'react'
-import { PageTemplate } from './page_template.js'
+import { PageTemplate } from './../pageTemplate/pageTemplate.js'
 
-import './work_experiences.css'
+import './workExperiences.css'
 
 export const WorkExperiences = () => {
   return (

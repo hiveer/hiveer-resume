@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 
-import { MainMenu } from './main_menu.js'
+import { MainMenu } from './../mainMenu/mainMenu.js'
 
-import './page_template.css'
+import './pageTemplate.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 export const PageTemplate = ({children}) => {

@@ -11,10 +11,10 @@ import {
 } from 'react-router-dom'
 
 
-import { AboutMe } from './components/about_me.js'
-import { WorkExperiences } from './components/work_experiences.js'
-import { ProjectExperiences } from './components/project_experiences.js'
-import { DownloadResume } from './components/download_resume.js'
+import { AboutMe } from './components/aboutMe/aboutMe.js'
+import { WorkExperiences } from './components/workExperiences/workExperiences.js'
+import { ProjectExperiences } from './components/projectExperiences/projectExperiences.js'
+import { DownloadResume } from './components/downloadResume/downloadResume.js'
 
 import {
   Contact,

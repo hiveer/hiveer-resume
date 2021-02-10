@@ -1,10 +1,10 @@
 import React from 'react'
-import { PageTemplate } from './page_template.js'
+import { PageTemplate } from './../pageTemplate/pageTemplate.js'
 
-import resume from './resume.pdf'
-import resume_png from './resume.png'
+import resume from './../assets/resume.pdf'
+import resume_png from './../assets/resume.png'
 
-import './download_resume.css'
+import './downloadResume.css'
 
 export const DownloadResume = () => {
   return (
