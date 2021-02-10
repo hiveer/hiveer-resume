@@ -5,7 +5,7 @@ import './App.css'
 
 
 import {
-  HashRouter,
+  BrowserRouter as Router,
   Route,
   Switch
 } from 'react-router-dom'
@@ -25,7 +25,7 @@ window.React = React
 
 const App = () => {
   return(
-    <HashRouter>
+    <Router>
       <div className="main">
         <Switch>
           <Route exact path="/" component={AboutMe} />
@@ -36,7 +36,7 @@ const App = () => {
           <Route component={Whoops404} />
         </Switch>
       </div>
-    </HashRouter>
+    </Router>
   )
 }
 
