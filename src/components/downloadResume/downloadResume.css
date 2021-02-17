@@ -1,12 +1,21 @@
 .download-resume {
   text-align: center;
+  padding: 10px;
+  width: 80%;
+  height: 90%;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .download-resume__img--resume-png {
   box-shadow: 1px 5px 5px #e2dddd;
   height: 600px;
-  width: auto;
+  width: 400px;
   margin-bottom: 30px;
+}
+
+.download-resume__div--one-resume {
+  margin: 30px 10px;
 }
 
 @media (max-width: 700px) {

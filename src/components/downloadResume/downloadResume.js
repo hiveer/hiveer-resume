@@ -1,8 +1,10 @@
 import React from 'react'
 import { PageTemplate } from './../pageTemplate/pageTemplate.js'
 
-import resume from './../assets/resume.pdf'
-import resume_png from './../assets/resume.png'
+import chineseResume from './../assets/chineseResume.pdf'
+import chineseResumeJPG from './../assets/chineseResume.jpg'
+import englishResume from './../assets/englishResume.pdf'
+import englishResumeJPG from './../assets/englishResume.jpg'
 
 import './downloadResume.css'
 
@@ -10,15 +12,29 @@ export const DownloadResume = () => {
   return (
     <PageTemplate>
       <section className="download-resume">
-        <div>
-          <img className="download-resume__img--resume-png" src={resume_png} />
+        <div className="download-resume__div--one-resume">
+          <div>
+            <img className="download-resume__img--resume-png" src={chineseResumeJPG} />
+          </div>
+          <div>
+            <a href={chineseResume} target="_blank">
+              <button className="btn btn-info">
+                下载中文简历
+              </button>
+            </a>
+          </div>
         </div>
-        <div>
-          <a href={resume} target="_blank">
-            <button className="btn btn-info">
-              Download resume
-            </button>
-          </a>
+        <div className="download-resume__div--one-resume">
+          <div>
+            <img className="download-resume__img--resume-png" src={englishResumeJPG} />
+          </div>
+          <div>
+            <a href={englishResume} target="_blank">
+              <button className="btn btn-info">
+                Download Resume
+              </button>
+            </a>
+          </div>
         </div>
       </section>
     </PageTemplate>
