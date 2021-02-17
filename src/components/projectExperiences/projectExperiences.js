@@ -24,15 +24,15 @@ export const ProjectExperiences = () => {
               <li>图片 优化</li>
             </ul>
             <div className="smile-view-projects__div row">
-              <div className="col-xs-12 col-sm-6 project-experiences__div--img text-center">
+              <div className="col-xs-12 col-sm-12 project-experiences__div--img text-center">
                 <img className="project-experiences__img smile-view-one" src={mn_landing_before} />
                 <p>优化前</p>
               </div>
-              <div className="col-xs-12 col-sm-6 project-experiences__div--img text-center">
+              <div className="col-xs-12 col-sm-12 project-experiences__div--img text-center">
                 <img className="project-experiences__img smile-view-two" src={mn_landing_after} />
                 <p>优化后</p>
               </div>
-              <div className="col-xs-12 col-sm-6 project-experiences__div--img text-center">
+              <div className="col-xs-12 col-sm-12 project-experiences__div--img text-center">
                 <img className="project-experiences__img smile-view-two" src={mn_google_speed_after} />
                 <p>优化后</p>
               </div>
