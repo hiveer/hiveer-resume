@@ -10,7 +10,7 @@ export const AboutMe = () => {
         <section className="about-me__section--name">
           <p>
             <label className="name-label"> 中文名：</label>
-            小白
+            李平
           </p>
           <p>
             <label className="name-label"> English Name：</label>
