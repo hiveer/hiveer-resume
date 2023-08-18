@@ -2,15 +2,14 @@
   padding: 10px;
   width: 80%;
   height: 90%;
-  overflow-y: scroll;
-  overflow-x: hidden;
 }
 
 .project-experiences__section {
   border-radius: 10px;
-  padding: 5px 10px;
+  padding: 20px;
   box-shadow: 1px 2px 2px #e2dddd;
-  margin: 40px 0;
+  margin: 20px 40px;
+  background-color: #e6e0e02e;
 }
 
 .project-experiences__img {

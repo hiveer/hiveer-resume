@@ -3,8 +3,6 @@
   padding: 10px;
   width: 80%;
   height: 90%;
-  overflow-y: scroll;
-  overflow-x: hidden;
 }
 
 .download-resume__img--resume-png {
@@ -16,6 +14,9 @@
 
 .download-resume__div--one-resume {
   margin: 30px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media (max-width: 700px) {

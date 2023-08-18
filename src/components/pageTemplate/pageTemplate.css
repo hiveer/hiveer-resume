@@ -8,10 +8,18 @@
   padding: 0;
 }
 
-.right-page-content, .left-sidebar {
+.left-sidebar {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
+}
+
+.right-page-content {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 40px 0;
 }
 
 .left-sidebar {
