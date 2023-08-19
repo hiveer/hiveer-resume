@@ -19,8 +19,24 @@
   width: auto;
 }
 
-.project-experiences__div--img {
-  margin-bottom: 60px;
+.margin-top-bottom-60 {
+  margin: 40px;
+}
+
+.margin-top-60 {
+  margin-top: 40px;
+}
+
+.margin-bottom-60 {
+  margin-bottom: 40px;
+}
+
+.project-experiences__div--img p {
+  margin: 1rem;
+}
+
+.project-experiences__div--img img {
+  border-radius: 8px;
 }
 
 .project-experiences__div--basic-intro {

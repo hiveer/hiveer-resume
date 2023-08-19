@@ -23,15 +23,15 @@ export const ProjectExperiences = () => {
             <li>图片 优化</li>
           </ul>
           <div className="smile-view-projects__div row">
-            <div className="col-xs-12 col-sm-12 project-experiences__div--img text-center">
+            <div className="col-xs-12 col-sm-12 project-experiences__div--img text-center margin-top-60">
               <img className="project-experiences__img smile-view-one" src={mn_landing_before} />
               <p>优化前</p>
             </div>
-            <div className="col-xs-12 col-sm-12 project-experiences__div--img text-center">
+            <div className="col-xs-12 col-sm-12 project-experiences__div--img text-center margin-top-60">
               <img className="project-experiences__img smile-view-two" src={mn_landing_after} />
               <p>优化后</p>
             </div>
-            <div className="col-xs-12 col-sm-12 project-experiences__div--img text-center">
+            <div className="col-xs-12 col-sm-12 project-experiences__div--img text-center margin-top-60">
               <img className="project-experiences__img smile-view-two" src={mn_google_speed_after} />
               <p>优化后</p>
             </div>
@@ -44,14 +44,14 @@ export const ProjectExperiences = () => {
           <h2> 权益宝 </h2>
           <p>一个生活服务类的众筹网站</p>
           <p>通过设定了一个众筹目标，一般是金额，然后用户开始投标众筹。当目标金额达到之后，权益宝将会兑现相应的权益。</p>
-          <p>
+          <div>
             <strong>主要功能：</strong>
             <ul>
               <li>用户登录，session管理</li>
               <li>订单状态管理</li>
               <li>银联支付接入</li>
             </ul>
-          </p>
+          </div>
         </div>
         <div>
           <p>
@@ -70,14 +70,14 @@ export const ProjectExperiences = () => {
           <h2> Activity Cloud </h2>
           <p>数据可视化Web Application</p>
           <p>基于公司积累的丰富的数据资源，提供了数据分析，以及数据的可视化展示</p>
-          <p>
+          <div>
             <strong>主要功能：</strong>
             <ul>
               <li>RESTFUL API(active_model_serializers)</li>
               <li>自建数据映射层</li>
               <li>数据可视化</li>
             </ul>
-          </p>
+          </div>
         </div>
         <div>
           <p>
@@ -97,7 +97,7 @@ export const ProjectExperiences = () => {
           <h2> Smile Sharing (微笑分享) </h2>
           <p>一个支持多国家，多种类型的coupon注册分配系统</p>
           <p>同时集成了面向公司内部的后台系统，面向用户的客户端系统，还有面向医生的系统</p>
-          <p>
+          <div>
             <strong>主要功能：</strong>
             <ul>
               <li>后台管理页面，数据分析，数据下载，数据筛选</li>
@@ -109,15 +109,15 @@ export const ProjectExperiences = () => {
               <li>支持多国家多类型活动</li>
               <li>可配置应用</li>
             </ul>
-          </p>
+          </div>
         </div>
-        <h4 className="text-center">首页</h4>
-        <div className="project-experiences__div--img text-center">
+        <div className="project-experiences__div--img text-center margin-top-bottom-60">
           <img className="project-experiences__img smile-sharing" src={smile_sharing_landing_page_png} />
+          <p> 首页 </p>
         </div>
-        <h4 className="text-center">后台</h4>
-        <div className="project-experiences__div--img text-center">
+        <div className="project-experiences__div--img text-center margin-bottom-60">
           <img className="project-experiences__img smile-sharing-admin" src={smile_sharing_admin_png} />
+          <p> 后台 </p>
         </div>
         <p>
           <strong>技术架构：</strong>
@@ -138,7 +138,7 @@ export const ProjectExperiences = () => {
           <h2> Smile View (微笑模拟) </h2>
           <p>一个支持多国家，多种场景微笑模拟web 应用</p>
           <p>采集用户的微笑，然后通过机器学习修正牙齿问题，然后把最美的微笑展现给用户自己</p>
-          <p>
+          <div>
             <strong>主要功能：</strong>
             <ul>
               <li>基于campaign，支持多类型，多语言</li>
@@ -146,10 +146,9 @@ export const ProjectExperiences = () => {
               <li>集成机器学习API集成</li>
               <li>前后端分离，Rails+React</li>
             </ul>
-          </p>
+          </div>
         </div>
-        <h4 className="text-center"> 客户端 </h4>
-        <div className="smile-view-projects__div row">
+        <div className="smile-view-projects__div row margin-top-bottom-60">
           <div className="col-xs-12 col-sm-6 project-experiences__div--img text-center">
             <img className="project-experiences__img smile-view-one" src={smile_view_one_png} />
           </div>
