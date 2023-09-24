@@ -46,6 +46,9 @@ export const AboutMe = () => {
             <li>
               <a href='https://stackoverflow.com/users/3057462/hiveer'> StackOverflow </a>
             </li>
+            <li>
+              <a href='https://www.zhihu.com/people/cha-ming-zhen-xiang-70/posts'> 知乎 </a>
+            </li>
           </p>
         </section>
       </section>
